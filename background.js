@@ -1,0 +1,1 @@
+console.log("Streak Guardian background worker started");
