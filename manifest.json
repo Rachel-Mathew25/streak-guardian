@@ -5,5 +5,10 @@
   "description": "Keeps my GitHub streak honest.",
   "background": {
     "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "permissions": ["alarms", "storage", "notifications"],
+  "icons": {
+    "128": "icon.png"
   }
 }
