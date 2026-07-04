@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Streak Guardian</title>
+  <style>
+    body { width: 260px; font-family: sans-serif; padding: 12px; }
+    #logList { padding-left: 18px; font-size: 12px; }
+    #noteInput { width: 100%; box-sizing: border-box; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h3>Streak Guardian</h3>
+  <p id="status">Loading...</p>
+
+  <hr>
+
+  <strong>Today's notes</strong>
+  <ul id="logList"></ul>
+
+  <input type="text" id="noteInput" placeholder="What are you working on?" />
+  <button id="addNote">Add note</button>
+
+  <script src="github.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
